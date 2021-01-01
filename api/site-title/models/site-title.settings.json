@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "posts",
+  "kind": "singleType",
+  "collectionName": "site_titles",
   "info": {
-    "name": "Posts",
+    "name": "Site Settings",
     "description": ""
   },
   "options": {
@@ -13,9 +13,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "posted_at": {
-      "type": "datetime"
     },
     "cover": {
       "model": "file",
@@ -28,12 +25,19 @@
       "plugin": "upload",
       "required": false
     },
-    "content": {
-      "type": "richtext"
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     },
-    "author": {
-      "plugin": "users-permissions",
-      "model": "user"
+    "map_place_name": {
+      "type": "string"
     }
   }
 }

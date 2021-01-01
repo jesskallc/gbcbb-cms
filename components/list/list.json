@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_list_lists",
+  "info": {
+    "name": "CategoryPicker",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "model": "categories"
+    }
+  }
+}

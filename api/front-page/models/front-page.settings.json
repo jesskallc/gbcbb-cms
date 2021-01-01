@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "front_pages",
+  "info": {
+    "name": "Front Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.section"
+    },
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    },
+    "header": {
+      "type": "string"
+    },
+    "hero": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Newsletter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.newsletter-picker"
+    },
+    "style_hero": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

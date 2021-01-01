@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_text_sections",
+  "info": {
+    "name": "text_section",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "maps.map"
+    }
+  }
+}

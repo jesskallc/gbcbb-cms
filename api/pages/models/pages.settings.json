@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.section"
+    }
+  }
+}

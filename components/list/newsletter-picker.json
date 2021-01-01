@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_list_newsletter_pickers",
+  "info": {
+    "name": "NewsletterPicker",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "newsletter": {
+      "model": "newsletters"
+    }
+  }
+}

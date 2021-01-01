@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_maps_maps",
+  "info": {
+    "name": "map",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "place_name": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "place_id": {
+      "type": "string"
+    }
+  }
+}
