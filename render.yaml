@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi-cloudinary
+    name: gbcbb-cms
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
