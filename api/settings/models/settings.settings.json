@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "site_titles",
+  "collectionName": "settings",
   "info": {
-    "name": "Site Settings",
+    "name": "Settings",
     "description": ""
   },
   "options": {
@@ -11,11 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
+    "siteTitle": {
       "type": "string",
       "maxLength": 255
     },
-    "cover": {
+    "brandLogo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -25,21 +25,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "map_place_name": {
-      "type": "string",
-      "maxLength": 255
     }
   }
 }

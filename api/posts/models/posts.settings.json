@@ -34,6 +34,9 @@
     "author": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "excerpt": {
+      "type": "text"
     }
   }
 }
