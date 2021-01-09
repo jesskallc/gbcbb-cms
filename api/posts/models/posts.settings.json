@@ -37,6 +37,10 @@
     },
     "excerpt": {
       "type": "text"
+    },
+    "category": {
+      "model": "categories",
+      "via": "posts"
     }
   }
 }
